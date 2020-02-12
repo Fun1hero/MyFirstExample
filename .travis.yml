@@ -1,4 +1,9 @@
-language: cpp
-os: linux
-script:
-    - make
+{
+  "language": "cpp",
+  "os": [
+    "linux"
+  ],
+  "script": [
+    "make"
+  ]
+}
