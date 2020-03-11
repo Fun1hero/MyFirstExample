@@ -1,10 +1,6 @@
-{
-  "language": "cpp",
-  "os": [
-    "linux"
-  ],
-  "script": [
-    "cpplint *.cpp",
-    "scan-build --status-bugs make"
-  ]
-}
+language: cpp
+os: linux
+install: pip install --user cpplint
+script:
+    - cpplint *.cpp
+    - scan-build --status-bugs make
