@@ -4,8 +4,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int main()
-{
+int main() {
     cout<<"Hi, please enter two numbers: ";
     int firstNum,secondNum;
     cin >> firstNum;
@@ -16,5 +15,7 @@ int main()
     cin >> x >> y;
     cout << x + y << endl;
 
+    int k;
+    k=0;
     return 0;
 }
